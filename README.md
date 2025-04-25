@@ -2,22 +2,22 @@
 
 ### Задание 1. Yandex Cloud
 
-- [Скрин](https://github.com/garrkiss/rsync/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2009.06.24_10.26.12.png)
+- [Terraform](https://github.com/garrkiss/terraform-net/tree/main/terraform)
 
-1. Составьте команду rsync, которая позволяет создавать зеркальную копию домашней директории пользователя в директорию /tmp/backup
-![Скрин](https://github.com/garrkiss/rsync/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2009.06.24_10.26.12.png)
+1. Terraform apply
+![Скрин](https://github.com/garrkiss/terraform-net/blob/main/img/5.png)
 
-2. Необходимо исключить из синхронизации все директории, начинающиеся с точки (скрытые)
-![Скрин](https://github.com/garrkiss/rsync/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2009.06.24_10.26.12.png)
-3. Необходимо сделать так, чтобы rsync подсчитывал хэш-суммы для всех файлов, даже если их время модификации и размер идентичны в источнике и приемнике.
+2. Скопировал ssh ключ, чтобы подключиться с публичной ВМ на приватную ВМ
+![Скрин](https://github.com/garrkiss/terraform-net/blob/main/img/1.png)
 
-![Скрин](https://github.com/garrkiss/rsync/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2009.06.24_10.26.12.png)
-4. На проверку направить скриншот с командой и результатом ее выполнения
-![Скрин](https://github.com/garrkiss/rsync/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2009.06.24_10.26.12.png)
+3. Зашёл на публичную ВМ по ssh
+![Скрин](https://github.com/garrkiss/terraform-net/blob/main/img/2.png)
 
-5.
+4. Зашёл на приватную ВМ по ssh с публичной
+![Скрин](https://github.com/garrkiss/terraform-net/blob/main/img/3.png)
 
-![Скрин](https://github.com/garrkiss/rsync/blob/main/img/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%2009.06.24_10.26.12.png)
+5. Пинг ya.ru, что интернет есть
+![Скрин](https://github.com/garrkiss/terraform-net/blob/main/img/4.png)
 
 
 
